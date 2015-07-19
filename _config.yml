@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Notes
-subtitle:
+title: 笔记
+subtitle: 记录点点滴滴
 description:
 author: Jiemoon
 language: zh-Hans
@@ -69,4 +69,6 @@ theme: next
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:jiemoon/notes.git
+  branch: master
